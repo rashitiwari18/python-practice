@@ -1,1 +1,1 @@
-# python-practice
+This repo contains my python practice series
