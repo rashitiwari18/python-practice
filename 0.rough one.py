@@ -1,9 +1,14 @@
+import time
 a = " hello world"
 b= "abcdefghijklmnopqrstuvwxyz"
+k= ""
 for i in a:
      for j in b:
-          print(j, end=" ")
-          if ( j == i):
-              break
+          print(k, end="")
+          print(j)
+          time.sleep(.05)
+          if ( i==j ):
+               k +=j
+               break
      
      
