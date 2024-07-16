@@ -18,3 +18,4 @@ budget = 200
 print(" Price of apples are: ", price)
 print(" My budget is: ", budget)
 if  (budget - price > 50):
+ print(" Alexa, add 1kg apple to the cart")
