@@ -10,3 +10,8 @@ if (budget > price):
 else:
     print(" Alexa, do not add apples to the cart")
 print(" Keep shopping !!")  
+
+# If- elif statement example:--
+
+price = int( input( " Enter price of apples"))
+budget = 200
