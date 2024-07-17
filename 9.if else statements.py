@@ -22,3 +22,5 @@ if  (budget - price > 50):
 elif (budget - price > 80):
     print(" It's ok you can consider adding apple to the cart")    
 else:
+print(" Alexa, do not add apples to the cart")
+print(" Keep shopping !!")    
