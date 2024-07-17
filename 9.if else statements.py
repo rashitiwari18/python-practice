@@ -19,3 +19,6 @@ print(" Price of apples are: ", price)
 print(" My budget is: ", budget)
 if  (budget - price > 50):
  print(" Alexa, add 1kg apple to the cart")
+elif (budget - price > 80):
+    print(" It's ok you can consider adding apple to the cart")    
+else:
