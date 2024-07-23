@@ -34,3 +34,10 @@ if ( num< 0):
 elif (num > 0):
     if ( num <= 40 ):
         print(" Number is between 0-40")
+    if ( num <= 80 ):
+        print(" Number is between 41-80")    
+    if ( num <= 100 ):
+        print(" Number is between 81-100")        
+else:
+    print(" Number is equal to 0")        
+
