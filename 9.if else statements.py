@@ -24,3 +24,13 @@ elif (budget - price > 80):
 else:
 print(" Alexa, do not add apples to the cart")
 print(" Keep shopping !!")    
+ Nested if statement example:--
+
+num= int( input(" Enter your number "))
+print("Your number is:", num)
+
+if ( num< 0):
+    print(" It is a negative number")
+elif (num > 0):
+    if ( num <= 40 ):
+        print(" Number is between 0-40")
